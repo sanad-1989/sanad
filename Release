@@ -1,0 +1,20 @@
+Origin: sanad
+Label: sanad
+Suite: stable
+Version: 1.0
+Codename: ios
+Architectures: iphoneos-arm
+Components: main
+Description: sanad Repository
+MD5Sum:
+ a80c45bfadd4c760b30e0119102d82fb 3153 Packages
+ dd4f21a9cedd227df9469091e9729eba 478 Packages.gz
+ 7f9709a52e7681a2b0e4175dced28804 805 Packages.bz2
+SHA1:
+ dca594a72d73ebe4d1cb14001e4dc6b769127e76 3153 Packages
+ 3657cae1e24717e8e09dab9a87b70702b828d4c0 478 Packages.gz
+ f98371b1e162185ddceccc77b327a2be6c165635 805 Packages.bz2
+SHA256:
+ 8f5bccc1739e868ade40e94475ee8cffba5dd64532c18fe31f13cdb530e6d78d 3153 Packages
+ 596a1363c03efdb3beaf3af921de3722ad745ef6ac9bf11d694cafa35c7c4f39 478 Packages.gz
+ bb3488b58be5203084116785f0d3ba162b639181e9b7fcef4cac000c323b282a 805 Packages.bz2
