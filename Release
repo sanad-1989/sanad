@@ -1,20 +1,20 @@
-Origin: sanad
-Label: sanad
+Origin: RepoHub
+Label: RepoHub
 Suite: stable
 Version: 1.0
 Codename: ios
-Architectures: iphoneos-arm
+Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
 Components: main
-Description: sanad Repository
+Description: RepoHub Repository
 MD5Sum:
- a80c45bfadd4c760b30e0119102d82fb 3153 Packages
- dd4f21a9cedd227df9469091e9729eba 478 Packages.gz
- 7f9709a52e7681a2b0e4175dced28804 805 Packages.bz2
+ d41d8cd98f00b204e9800998ecf8427e 0 Packages
+ a59f70ed50da05a257c245bd023eae1b 20 Packages.gz
+ 4059d198768f9f8dc9372dc1c54bc3c3 14 Packages.bz2
 SHA1:
- dca594a72d73ebe4d1cb14001e4dc6b769127e76 3153 Packages
- 3657cae1e24717e8e09dab9a87b70702b828d4c0 478 Packages.gz
- f98371b1e162185ddceccc77b327a2be6c165635 805 Packages.bz2
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 Packages
+ c64860e5322b97c2b69ac659ce6fb0e1bb9282e4 20 Packages.gz
+ 64a543afbb5f4bf728636bdcbbe7a2ed0804adc2 14 Packages.bz2
 SHA256:
- 8f5bccc1739e868ade40e94475ee8cffba5dd64532c18fe31f13cdb530e6d78d 3153 Packages
- 596a1363c03efdb3beaf3af921de3722ad745ef6ac9bf11d694cafa35c7c4f39 478 Packages.gz
- bb3488b58be5203084116785f0d3ba162b639181e9b7fcef4cac000c323b282a 805 Packages.bz2
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 Packages
+ 9e72928e7a01615b4cf090daa617b4ca9d68531748f887f323f695eb4ca3ef63 20 Packages.gz
+ d3dda84eb03b9738d118eb2be78e246106900493c0ae07819ad60815134a8058 14 Packages.bz2
