@@ -1,11 +1,11 @@
-Origin: RepoHub
-Label: RepoHub
+Origin: sanad
+Label: sanad
 Suite: stable
 Version: 1.0
 Codename: ios
 Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
 Components: main
-Description: RepoHub Repository
+Description: sanad
 MD5Sum:
  fceb1d92d551d739c6e9a9f1f0584241 468 Packages
  18fc1669413ce1b436002ec15cd49e2a 316 Packages.gz
