@@ -7,14 +7,14 @@ Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
 Components: main
 Description: sanad
 MD5Sum:
- fde10b6af06d43e2cdd08508a15570bc 895 Packages
- 5a7079c4dfc3866fe2a4fe1998fee930 428 Packages.gz
- 2201d578106f4a8f3cb0c4560820b768 568 Packages.bz2
+ d261580564f7d4670450c12fb679a741 427 Packages
+ c58d7cf1d0e232fb6c257c986e96df94 285 Packages.gz
+ eabea7428f8cb570f27ffd798f99a3eb 345 Packages.bz2
 SHA1:
- ad1cefee2b0d4c18bc803398f06b0c23677da487 895 Packages
- c98861ba62a13cd8106698ccf35fafaec62a12d3 428 Packages.gz
- 1f1c7e7688d81b7a55c02e17e89a0d8fc417292b 568 Packages.bz2
+ 58b6b7d230f5741d79a3a3a58fcf09d42b045fcd 427 Packages
+ 70c29df6df67f26f68fc859b55e90376dbf06f4c 285 Packages.gz
+ 870a3c5d25d9b23a47b12d9ad8e7b144367d9f6a 345 Packages.bz2
 SHA256:
- 586a8c143e71cb757b41c19f82cbf809db04f90a8f1d15c399bc96315b649da0 895 Packages
- b83adebb28d4dea2aa0e20f1a4c0dc34ff3191ff189234f40882d3e25441bb83 428 Packages.gz
- ad4492778f56fbcb0bf56fe940760498c2f43d31b70d63dfaef59bc4a795408b 568 Packages.bz2
+ 1e2a66b460e37d9c6e790892a9005cb9fb29fcaf87e3709b447d805ae73e34e6 427 Packages
+ debcf3a92ec160e5baa31f87101ed3d9f2969aabbb70f3d05fbbebd6368a6e45 285 Packages.gz
+ 2bbc94121a378c73f1f8c4b22f04d668059381d70c014223ac72388b9802fd30 345 Packages.bz2
