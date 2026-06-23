@@ -21,77 +21,77 @@
 margin:0;
 padding:0;
 box-sizing:border-box;
+font-family:Segoe UI, sans-serif;
 }
 
 body{
-font-family:Segoe UI,sans-serif;
 background:var(--bg);
 color:var(--text);
-
-background-image:
-radial-gradient(circle at 20% 20%,rgba(110,75,242,.2),transparent 40%),
-radial-gradient(circle at 80% 80%,rgba(0,217,192,.15),transparent 40%);
-
 min-height:100vh;
 display:flex;
 align-items:center;
 justify-content:center;
 padding:20px;
+background-image:
+radial-gradient(circle at 20% 20%,rgba(110,75,242,.25),transparent 45%),
+radial-gradient(circle at 80% 80%,rgba(0,217,192,.15),transparent 45%);
 }
 
 .container{
-max-width:500px;
 width:100%;
+max-width:520px;
 text-align:center;
 }
 
 .logo{
-font-size:85px;
-margin-bottom:20px;
+font-size:80px;
+margin-bottom:15px;
 background:linear-gradient(135deg,#fff,var(--accent));
 -webkit-background-clip:text;
 -webkit-text-fill-color:transparent;
 }
 
 h1{
-font-size:34px;
-margin-bottom:10px;
+font-size:32px;
+margin-bottom:8px;
 }
 
 .subtitle{
 color:var(--sub);
-margin-bottom:35px;
+margin-bottom:30px;
+font-size:14px;
 }
 
 .card{
-background:rgba(22,27,51,.7);
-padding:30px;
-border-radius:30px;
-backdrop-filter:blur(10px);
-border:1px solid rgba(110,75,242,.3);
+background:rgba(22,27,51,.75);
+backdrop-filter:blur(12px);
+border:1px solid rgba(110,75,242,.25);
+padding:25px;
+border-radius:25px;
 }
 
 .btn{
 display:flex;
 align-items:center;
-padding:18px;
-margin-bottom:15px;
-border-radius:20px;
+justify-content:space-between;
+padding:16px;
+margin-bottom:12px;
+border-radius:16px;
 text-decoration:none;
-color:white;
-background:rgba(255,255,255,.05);
-transition:.3s;
+color:#fff;
+background:rgba(255,255,255,.04);
+transition:.25s;
 }
 
 .btn:hover{
-transform:translateY(-4px);
-background:rgba(110,75,242,.2);
+transform:translateY(-3px);
+background:rgba(110,75,242,.18);
 }
 
 .btn i:first-child{
-margin-left:15px;
-font-size:22px;
 color:var(--cyan);
+font-size:20px;
+margin-left:10px;
 }
 
 .btn span{
@@ -100,32 +100,32 @@ text-align:right;
 }
 
 .social{
-margin-top:30px;
+margin-top:25px;
 display:flex;
 justify-content:center;
-gap:15px;
+gap:12px;
 }
 
 .social a{
-width:45px;
-height:45px;
-border-radius:14px;
-background:rgba(255,255,255,.05);
+width:44px;
+height:44px;
 display:flex;
 align-items:center;
 justify-content:center;
-color:white;
+border-radius:12px;
+background:rgba(255,255,255,.05);
+color:#fff;
+transition:.25s;
 text-decoration:none;
-transition:.3s;
 }
 
 .social a:hover{
 background:var(--accent);
-transform:scale(1.1);
+transform:scale(1.08);
 }
 
 .footer{
-margin-top:25px;
+margin-top:20px;
 font-size:12px;
 color:var(--sub);
 }
@@ -139,38 +139,26 @@ color:var(--sub);
 <i class="fa-solid fa-infinity logo"></i>
 
 <h1>sanad Repo</h1>
-
-<p class="subtitle">
-السورس الرسمي للأدوات، الثيمات والتعديلات
-</p>
+<p class="subtitle">السورس الرسمي للأدوات، الثيمات والتعديلات</p>
 
 <div class="card">
 
-<a class="btn"
-href="cydia://url/https://cydia.saurik.com/api/share#?source=https://sanad-1989.github.io/sanad/">
-
+<a class="btn" href="cydia://url/https://cydia.saurik.com/api/share#?source=https://sanad-1989.github.io/sanad/">
 <i class="fa-solid fa-box-open"></i>
 <span>إضافة إلى Cydia</span>
 <i class="fa-solid fa-chevron-left"></i>
-
 </a>
 
-<a class="btn"
-href="sileo://source/https://sanad-1989.github.io/sanad/">
-
+<a class="btn" href="sileo://source/https://sanad-1989.github.io/sanad/">
 <i class="fa-solid fa-bolt"></i>
 <span>إضافة إلى Sileo</span>
 <i class="fa-solid fa-chevron-left"></i>
-
 </a>
 
-<a class="btn"
-href="zbra://sources/add/https://sanad-1989.github.io/sanad/">
-
+<a class="btn" href="zbra://sources/add/https://sanad-1989.github.io/sanad/">
 <i class="fa-solid fa-horse-head"></i>
 <span>إضافة إلى Zebra</span>
 <i class="fa-solid fa-chevron-left"></i>
-
 </a>
 
 </div>
@@ -181,9 +169,7 @@ href="zbra://sources/add/https://sanad-1989.github.io/sanad/">
 <a href="#"><i class="fa-brands fa-discord"></i></a>
 </div>
 
-<p class="footer">
-© 2026 sanad Team
-</p>
+<p class="footer">© 2026 sanad Team</p>
 
 </div>
 
