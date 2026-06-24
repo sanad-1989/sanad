@@ -5,6 +5,7 @@ Version: 1.0
 Codename: ios
 Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
 Components: main
+Icon: https://sanad-1989.github.io/sanad/CydiaIcon.png
 Description: sanad
 MD5Sum:
  09f04e33dde7f3385ae95249b7a41003 965 Packages
