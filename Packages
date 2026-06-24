@@ -43,3 +43,17 @@ Filename: debs/1782264697738_Top Widgetsâº.deb
 Size: 211030
 Installed-Size: 1372
 
+Package: com.jouwnaam.snapplus
+Name: SnapPlus
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: Een aangepaste versie van SnapPlus met ZeroDeadBeef fix.
+Maintainer: JouwNaam
+Author: JouwNaam
+Section: Tweaks
+Depends: mobilesubstrate
+Depiction: http://localhost:3000/api/depictions/com.jouwnaam.snapplus
+SileoDepiction: http://localhost:3000/api/depictions/com.jouwnaam.snapplus/sileo
+Filename: debs/1782265414256_SnapPlus.deb
+Size: 497360
+
