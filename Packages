@@ -28,18 +28,3 @@ Filename: debs/1782259650775_XenHTML_iOS16_17_Dopamine_1.deb
 Size: 563924
 Installed-Size: 2368
 
-Package: com.hw.topwidgets
-Name: 🄷🅆  TopWidgets
-Version: 0.0.1
-Architecture: iphoneos-arm64
-Description: 解锁VIP TG：@HelloWorld_1024
-Maintainer: 🄷🅆
-Author: 🄷🅆
-Section: Tweaks
-Depends: mobilesubstrate
-Depiction: http://localhost:3000/api/depictions/com.hw.topwidgets
-SileoDepiction: http://localhost:3000/api/depictions/com.hw.topwidgets/sileo
-Filename: debs/1782263768986_Top Widgetsâº.deb
-Size: 211030
-Installed-Size: 1372
-
