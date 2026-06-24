@@ -8,14 +8,14 @@ Components: main
 Icon: https://sanad-1989.github.io/sanad/CydiaIcon.png
 Description: Sanad Repo
 MD5Sum:
- 09f04e33dde7f3385ae95249b7a41003 965 Packages
- d6c383b4be182c06997abda548d48248 456 Packages.gz
- 775fd1a9f1f3ec5e6ad3f0d27a94b6b2 601 Packages.bz2
+ d760eefd294a62adc9d70d570eff2ca4 1416 Packages
+ 98e8149510113e7fbc649e2d72b332ab 595 Packages.gz
+ 636ee2cc9cea3ca95f409d0f4d63e55d 826 Packages.bz2
 SHA1:
- 84e8bb1b5c0eddc481ec51273a2ba13873a8c4e5 965 Packages
- 089658b529dc577f104e8d9b454bb8bbeb3ef003 456 Packages.gz
- b5e1180b320d4496a8e5cbfba090755a57bfbb2f 601 Packages.bz2
+ a8a8ad94ff4fb3b6c599c9d22a6d481da26c4d3c 1416 Packages
+ 727e930de665222efd23f257077f7dac06276e6e 595 Packages.gz
+ 3ecdf5b52731d3bbb7971d4c3435d600054f6509 826 Packages.bz2
 SHA256:
- 5bf8c8425de70b07d23010fb625402d8dd1f7a592dbc6120fa1f7dda4c55eecc 965 Packages
- 2d2a75ea7b4d266a17af6e4507c3b998c3589210540dc38616a646560c2e2b61 456 Packages.gz
- cfa66a1d7c9c94fcce360e2fccffb426dc85364b0f6a8b07555b9f0a4125bea2 601 Packages.bz2
+ e226498745823682d1e0de9111ec87450d2c8939012f6dce57da168e0ed50498 1416 Packages
+ a08511890a199fe8af914a32a2ba01205af37dd05f3e9deeb0103be7fc53693f 595 Packages.gz
+ 3487eeca2bde4f4c1a3a71e3238d18d399d7669eecb277371be527fc63b6f6eb 826 Packages.bz2
