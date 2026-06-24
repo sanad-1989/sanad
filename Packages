@@ -43,18 +43,3 @@ Filename: debs/1782264697738_Top Widgetsâº.deb
 Size: 211030
 Installed-Size: 1372
 
-Package: com.agha.xenfix
-Name: XenHTMLFix
-Version: 0.0.1-3+debug
-Architecture: iphoneos-arm
-Description: An awesome MobileSubstrate tweak!
-Maintainer: agha
-Author: agha
-Section: Tweaks
-Depends: mobilesubstrate (>= 0.9.5000)
-Depiction: http://localhost:3000/api/depictions/com.agha.xenfix
-SileoDepiction: http://localhost:3000/api/depictions/com.agha.xenfix/sileo
-Filename: debs/1782265085871_com.agha.xenfix_0.0.1-3+debug_iphoneos-arm.deb
-Size: 2302
-Installed-Size: 152
-
