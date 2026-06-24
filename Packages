@@ -28,3 +28,18 @@ Filename: debs/1782259535559_VibeTok-1.70.deb
 Size: 110758
 Installed-Size: 748
 
+Package: com.matchstic.xenhtml
+Name: Xen HTML
+Version: 2.1~beta2
+Architecture: iphoneos-arm64
+Description: Unified and simplified HTML rendering
+Maintainer: Matchstic
+Author: Matchstic
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.16), firmware (>= 16.0)
+Depiction: http://localhost:3000/api/depictions/com.matchstic.xenhtml
+SileoDepiction: http://localhost:3000/api/depictions/com.matchstic.xenhtml/sileo
+Filename: debs/1782259650775_XenHTML_iOS16_17_Dopamine_1.deb
+Size: 563924
+Installed-Size: 2368
+
