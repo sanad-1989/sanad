@@ -42,16 +42,3 @@ SileoDepiction: http://localhost:3000/api/depictions/com.jouwnaam.snapplus/sileo
 Filename: debs/1782265414256_SnapPlus.deb
 Size: 497360
 
-Package: xyz.cypwn.wtspatch
-Name: xyz.cypwn.wtspatch
-Version: 1.0.1
-Architecture: iphoneos-arm
-Description: No description available
-Maintainer: CyPwn
-Author: CyPwn
-Section: Tweaks
-Depiction: http://localhost:3000/api/depictions/xyz.cypwn.wtspatch
-SileoDepiction: http://localhost:3000/api/depictions/xyz.cypwn.wtspatch/sileo
-Filename: debs/1782265822148_wtspatch-1.0.1.deb
-Size: 6478
-
