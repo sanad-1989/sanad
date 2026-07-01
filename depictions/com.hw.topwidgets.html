@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>🄷🅆  TopWidgets</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --primary: #007AFF;
+      --bg: #000000;
+      --card: #1C1C1E;
+      --card2: #2C2C2E;
+      --text: #FFFFFF;
+      --text-muted: #8E8E93;
+      --sep: rgba(142,142,147,0.25);
+    }
+    @media (prefers-color-scheme: light) {
+      :root {
+        --bg: #F2F2F7;
+        --card: #FFFFFF;
+        --card2: #F2F2F7;
+        --text: #000000;
+        --text-muted: #6E6E73;
+        --sep: rgba(60,60,67,0.18);
+      }
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      -webkit-font-smoothing: antialiased;
+    }
+    .banner {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+      display: block;
+      background: linear-gradient(135deg, var(--primary) 0%, #000 100%);
+    }
+    .banner-placeholder {
+      width: 100%;
+      height: 180px;
+      background: linear-gradient(135deg, #007AFF44 0%, #007AFF11 100%);
+    }
+    .app-header {
+      background: var(--card);
+      padding: 16px 20px 0 20px;
+      display: flex;
+      align-items: flex-start;
+      gap: 14px;
+    }
+    .app-icon {
+      width: 72px;
+      height: 72px;
+      border-radius: 16px;
+      background: linear-gradient(135deg, var(--primary), #000);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 28px;
+      flex-shrink: 0;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+      overflow: hidden;
+    }
+    .app-icon img { width: 100%; height: 100%; object-fit: cover; }
+    .app-meta { flex: 1; min-width: 0; padding-top: 4px; }
+    .app-name {
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--text);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .app-author {
+      font-size: 14px;
+      color: var(--primary);
+      font-weight: 600;
+      margin-top: 2px;
+    }
+    .get-btn {
+      background: var(--primary);
+      color: #fff;
+      border: none;
+      border-radius: 20px;
+      padding: 8px 22px;
+      font-size: 15px;
+      font-weight: 700;
+      margin-top: 10px;
+      cursor: pointer;
+      flex-shrink: 0;
+    }
+    .tabs-bar {
+      background: var(--card);
+      display: flex;
+      border-bottom: 1px solid var(--sep);
+      margin-top: 12px;
+    }
+    .tab-btn {
+      flex: 1;
+      padding: 12px;
+      text-align: center;
+      font-size: 15px;
+      font-weight: 500;
+      color: var(--text-muted);
+      cursor: pointer;
+      border-bottom: 2px solid transparent;
+      transition: all 0.2s;
+      background: none;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+    }
+    .tab-btn.active {
+      color: var(--primary);
+      border-bottom: 2px solid var(--primary);
+    }
+    .tab-content { display: none; }
+    .tab-content.active { display: block; }
+    .screenshots-wrap {
+      background: var(--card);
+      padding: 16px 0 16px 16px;
+      margin-top: 12px;
+    }
+    .screenshots-scroll {
+      display: flex;
+      gap: 10px;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      scrollbar-width: none;
+      padding-right: 16px;
+    }
+    .screenshots-scroll::-webkit-scrollbar { display: none; }
+    .screenshots-scroll img {
+      height: 280px;
+      border-radius: 12px;
+      flex-shrink: 0;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.25);
+      object-fit: cover;
+    }
+    .desc-card {
+      background: var(--card);
+      margin: 12px 0 0 0;
+      padding: 16px 20px;
+    }
+    .section-title {
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 10px;
+    }
+    .desc-text {
+      font-size: 14px;
+      line-height: 1.7;
+      color: var(--text-muted);
+    }
+    .info-card {
+      background: var(--card);
+      margin: 12px 0 0 0;
+    }
+    .info-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 13px 20px;
+      border-bottom: 1px solid var(--sep);
+      font-size: 14px;
+    }
+    .info-row:last-child { border-bottom: none; }
+    .info-label { color: var(--text-muted); }
+    .info-value { font-weight: 500; color: var(--text); }
+    .changelog-card {
+      background: var(--card);
+      margin: 12px 0;
+      padding: 16px 20px;
+    }
+    .changelog-version {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 8px;
+    }
+    .changelog-text {
+      font-size: 14px;
+      line-height: 1.7;
+      color: var(--text-muted);
+    }
+    a { color: var(--primary); text-decoration: none; }
+  </style>
+</head>
+<body>
+  <img class="banner" src="https://raw.githubusercontent.com/sanad-1989/sanad/main/screenshots/1782886680488_sanad.png" alt="Banner" onerror="this.style.display='none'">
+  <div class="app-header">
+    <div class="app-icon">📦</div>
+    <div class="app-meta">
+      <div class="app-name">🄷🅆  TopWidgets</div>
+      <div class="app-author">🄷🅆</div>
+    </div>
+    <button class="get-btn">تثبيت</button>
+  </div>
+  <div class="tabs-bar">
+    <button class="tab-btn active" onclick="switchTab(this,'details')">التفاصيل</button>
+    <button class="tab-btn" onclick="switchTab(this,'changelog')">سجل التغييرات</button>
+  </div>
+  <div id="details" class="tab-content active">
+    
+    <div class="screenshots-wrap">
+      <div class="screenshots-scroll">
+        <img src="https://raw.githubusercontent.com/sanad-1989/sanad/main/screenshots/1782886680488_sanad.png" alt="Screenshot">
+      </div>
+    </div>
+    
+    <div class="desc-card">
+      <div class="section-title">الوصف</div>
+      <div class="desc-text"># 🄷🅆  TopWidgets<br>解锁VIP TG：@HelloWorld_1024</div>
+    </div>
+    <div class="info-card">
+      <div class="info-row">
+        <span class="info-label">الإصدار</span>
+        <span class="info-value">0.0.1</span>
+      </div>
+      <div class="info-row">
+        <span class="info-label">المطور</span>
+        <span class="info-value">🄷🅆</span>
+      </div>
+      <div class="info-row">
+        <span class="info-label">الحجم</span>
+        <span class="info-value">206.1 KB</span>
+      </div>
+      <div class="info-row">
+        <span class="info-label">القسم</span>
+        <span class="info-value">Tweaks</span>
+      </div>
+      <div class="info-row">
+        <span class="info-label">المعمارية</span>
+        <span class="info-value">iphoneos-arm64</span>
+      </div>
+    </div>
+  </div>
+  <div id="changelog" class="tab-content">
+    <div class="changelog-card">
+      <div class="changelog-version">الإصدار 0.0.1</div>
+      <div class="changelog-text">- Initial release</div>
+    </div>
+  </div>
+  <script>
+    function switchTab(btn, id) {
+      document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+      document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+      btn.classList.add('active');
+      document.getElementById(id).classList.add('active');
+    }
+  </script>
+</body>
+</html>
