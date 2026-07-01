@@ -1,0 +1,86 @@
+{
+  "minVersion": "0.1",
+  "class": "DepictionTabView",
+  "tintColor": "#007AFF",
+  "headerImage": "https://raw.githubusercontent.com/sanad-1989/sanad/main/screenshots/1782886680488_sanad.png",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "التفاصيل",
+      "views": [
+        {
+          "class": "DepictionScreenshotsView",
+          "itemCornerRadius": 12,
+          "itemSize": "{160,284}",
+          "ipad": {
+            "itemSize": "{200,356}"
+          },
+          "screenshots": [
+            {
+              "url": "https://raw.githubusercontent.com/sanad-1989/sanad/main/screenshots/1782886680488_sanad.png",
+              "accessibilityText": "🄷🅆  TopWidgets"
+            }
+          ]
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "الوصف",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "# 🄷🅆  TopWidgets\n解锁VIP TG：@HelloWorld_1024",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "الإصدار",
+          "text": "0.0.1"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "المطور",
+          "text": "🄷🅆"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "الحجم",
+          "text": "206.1 KB"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "القسم",
+          "text": "Tweaks"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "المعمارية",
+          "text": "iphoneos-arm64"
+        }
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "سجل التغييرات",
+      "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "الإصدار 0.0.1",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Initial release",
+          "useSpacing": true
+        }
+      ]
+    }
+  ]
+}
