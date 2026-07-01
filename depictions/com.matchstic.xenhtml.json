@@ -1,0 +1,71 @@
+{
+  "minVersion": "0.1",
+  "class": "DepictionTabView",
+  "tintColor": "#007AFF",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "التفاصيل",
+      "views": [
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "الوصف",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "# Xen HTML\nUnified and simplified HTML rendering",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "الإصدار",
+          "text": "2.1~beta2"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "المطور",
+          "text": "Matchstic"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "الحجم",
+          "text": "550.7 KB"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "القسم",
+          "text": "Tweaks"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "المعمارية",
+          "text": "iphoneos-arm64"
+        }
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "سجل التغييرات",
+      "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "الإصدار 2.1~beta2",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Initial release",
+          "useSpacing": true
+        }
+      ]
+    }
+  ]
+}
